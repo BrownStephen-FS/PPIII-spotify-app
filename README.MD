@@ -13,11 +13,13 @@ This is a simple Spotify music search app that allows the user to tap into Spoti
 
 ## Getting Started
 Open terminal and run
-	cd api
-    npm i
-    cd ..
-    cd ui
-    npm i
+```
+cd api
+npm i
+cd ..
+cd ui
+npm i
+```
 
 Then open separate terminals and cd into api and ui folders then run the below command in both terminals
 	npm start
