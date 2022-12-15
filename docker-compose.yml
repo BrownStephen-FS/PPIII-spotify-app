@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  sql-server-db:
+    container_name: pp3-spotify-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "3500:3500"
+    environment:
+      SA_PASSWORD: "dbPassword_123"
+      ACCEPT_EULA: "Y"
