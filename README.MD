@@ -25,6 +25,9 @@ Then open separate terminals and cd into api and ui folders then run the below c
 	npm start
 
 ## Links
-
-- http://localhost:3000 - Link to the frontend (React.js) application. This is the primary user interface of the Spotify application
-- http://localhost:3001 - Link to the backend (Express) API.
+[http://localhost:3000](http://localhost:3000) - Link to the frontend (Nuxt.js) application. This is the primary user interface of the Spotify application
+- [http://localhost:3001](http://localhost:3001) - Link to the backend (Express) API.
+- [http://localhost:3001/spotify/v1](http://localhost:3001/spotify/v1) - Link to the Spotify API middleware. 
+- [http://localhost:3001/spotify/v1/status](http://localhost:3001/spotify/v1/status) - Endpoint to check the status of our application's JWT. Returns true if a valid JWT exists. False otherwise.
+- [http://localhost:3001/spotify/v1/login](http://localhost:3001/spotify/v1/login) - Endpoint request a new JWT from Spotify using the authentication workflow
+- [http://localhost:3001/spotify/v1/search](http://localhost:3001/spotify/v1/search) - Endpoint for a general/global search to Spotify. Returns JSON of all results. 
