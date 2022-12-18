@@ -9,14 +9,11 @@ This is a simple Spotify music search app that allows the user to tap into Spoti
 - NodeJS >= v18.12.1
 - npm >= v8.19.2
 - Brew >= v3.6.11 (if MacOS)
-- MongoDB Compass => v1.33.1
 
 ## Getting Started
 Open terminal and run
 ```
-cd api
 npm i
-cd ..
 cd ui
 npm i
 ```
