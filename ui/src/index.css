@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #191414;
 }
 
 code {
@@ -16,3 +17,7 @@ code {
 Spotify green: #1DB954
 Spotify black: #191414
 */
+
+#logout {
+  text-decoration: none;
+}

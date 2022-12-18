@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Login from "./pages/Login";
 import Main from "./pages/Main";
 import Albums from "./pages/Albums";
 import Artists from "./pages/Artists";
@@ -15,14 +16,16 @@ function App() {
         <Nav />
         <section>
           <Routes>
-            <Route exact path="/" element={<Main />} />
+            <Route>
+              <Route exact path="/" element={<Login />} />
+            </Route>
             <Route path="/Main" element={<Main />} />
             <Route path="/Albums" element={<Albums />} />
             <Route path="/Artists" element={<Artists />} />
             <Route path="/Songs" element={<Songs />} />
           </Routes>
         </section>
-        <Footer/>
+        <Footer />
       </main>
     </div>
   );
